@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    height: 100vh;
+    width: auto;
+    position: relative;
+}
+
+/* .backdrop-modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0, .7);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.area1,
+.area2,
+.area3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 50vh;
+    width: 50%;
+
+}
+
+.area1 {
+    background-color: grey;
+}
+
+.area2 {
+    background-color: lightgrey;
+}
+
+.area3 {
+    background-color: lightblue;
+}
+
+
